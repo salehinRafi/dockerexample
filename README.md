@@ -4,7 +4,7 @@ This is a React front-end and Node back-end sample application, meant to be set 
 
 ## Prerequisites
 
-####Docker
+#### Docker
 
 * A Dockerfile describes a Docker image, not a container.
 
