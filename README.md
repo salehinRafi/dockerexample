@@ -4,7 +4,15 @@ This is a React front-end and Node back-end sample application, meant to be set 
 
 ## Prerequisites
 
-Docker
+####Docker
+
+* A Dockerfile describes a Docker image, not a container.
+
+* The container is an instance of this image.
+
+* If you want to run a container without building an image (which means without creating a Dockerfile), you need to use an existing image on the Docker Hub ([link here](https://hub.docker.com/explore/)).
+
+* The Docker Hub is a Docker online repository.
 
 ## Running the tests
 
@@ -36,5 +44,9 @@ Docker
     ```
 
 ## Credits
+[What is Dockerfile?](https://www.conetix.com.au/blog/what-is-a-dockerfile)
 
-[https://www.smashingmagazine.com/2016/04/stop-installing-your-webdev-environment-locally-with-docker/](https://www.smashingmagazine.com/2016/04/stop-installing-your-webdev-environment-locally-with-docker/)
+[Why You Should Stop Installing Your WebDev Environment Locally](https://www.smashingmagazine.com/2016/04/stop-installing-your-webdev-environment-locally-with-docker/)
+
+[Start up docker container without Dockerfile
+](https://stackoverflow.com/a/41870219/4216992)
